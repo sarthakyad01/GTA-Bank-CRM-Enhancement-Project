@@ -1,0 +1,28 @@
+Variable,Description
+Customer_No,Unique identifier for a customer
+Age_Group,Grouping of customer age
+Tenure,Length of time a customer has been with the bank
+DEP_IND,Indicator of a chequing deposit account (1=yes 0=no)
+CC_IND,Indicator of a credit card account (1=yes 0=no)
+MTG_IND,Indicator of a mortgage account (1=yes 0=no)
+LOC_IND,Indicator of a line of credit account (1=yes 0=no)
+DEP_PROF,Profit of the deposit account
+CC_PROF,Profit of the credit card account
+MTG_PROF,Profit of the mortgage account
+LOC_PROF,Profit of the line of credit account
+AREA,Location of the customer
+MOBILE_ACTIVE,Indicator if the customer is active on mobile (1=yes 0=no)
+PAYROLL_DEPOSIT,Indicator of whether the customer has a payroll deposit in their chequing account
+CSAT,"Customer satisfaction score, higher the better"
+CX_QUALITY,"Customer quality score, higher the better "
+CUST_ENGAGEMENT,Higher the score the more engaged the customer
+CUST_AFFLUENCE,Higher the score the more affluent the customer is
+SEGMENT,"Internal segmentation (platinum = best, bronze = worst)"
+CLV_DEPOSITS,Lifetime value of the deposit relationship
+CLV_CREDITCARD,Lifetime value of the creditc relationship
+CLV_MORTGAGE,Lifetime value of the mortgage relationship
+CLV_LOC,Lifetime value of the ling of credit relationship
+ACQ_SCORE,"Probability to accept an offer, higher the better"
+EMAILABLE,"Can the customer be emailed (1=yes , 0=no)"
+MAILABLE,"Can the customer be mailed (1=yes, 0=no)"
+MILLENNIAL,"Is the customer a millennial (1=yes, 0=no)"
